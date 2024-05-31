@@ -1,0 +1,436 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1440px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-logo {
+  margin-top: 15px;
+  margin-left: 120px;
+  width: 109px;
+  height: 40px;
+}
+
+.head-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 120px;
+}
+
+.head-item {
+  margin-left: 40px;
+}
+
+.head-link {
+  text-decoration: none;
+  color: black;
+}
+
+.head-link:hover {
+  color: red;
+}
+
+hr {
+  color: black;
+  width: 1px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: -10px;
+}
+
+.item-image {
+  margin-right: 5px;
+}
+
+.hero {
+  width: 1440px;
+  height: 708px;
+  background-image: url(../images/bgi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-in {
+  padding: 140px;
+  width: 1152px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+}
+
+.hero-left {
+  margin-top: 100px;
+  width: 576px;
+  height: 305;
+  transform: translate(80px);
+}
+
+.hero-head {
+  background-image: url(../images/&.png);
+  background-repeat: no-repeat;
+  background-position: 236px 25px;
+  background-size: 36px;
+  max-width: 272px;
+  height: 116px;
+}
+
+.hero-head:before {
+  content: "pompeo property";
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.hero-txt {
+  margin-top: -30px;
+  width: 512px;
+  height: 26px;
+}
+
+.hero-btn {
+  border: 2px solid none;
+  width: 161px;
+  height: 50px;
+  background-color: #ac1313;
+  margin-top: 50px;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.content-head {
+  text-align: center;
+  max-width: 1440px;
+  height: 117px;
+  font-style: bold;
+}
+
+.content-head:before {
+  content: "product categories";
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.content-logo {
+  width: 40px;
+  margin-bottom: 8px;
+}
+
+.content-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  max-width: 1172px;
+  margin-left: 10px;
+}
+
+.content-list::before {
+  content: "HAND_CRAFT_POTTERY";
+  font-size: small;
+  display: flex;
+  margin-right: -300px;
+  transform: rotate(-90deg);
+  color: rgb(207, 203, 203);
+}
+
+.content-item {
+  display: inline;
+  margin-left: 150px;
+  width: 240px;
+  height: 240px;
+  border: 2px solid none;
+  border-radius: 240px;
+  background-color: #e4b366;
+  margin-left: 220px;
+}
+
+.item-in {
+  width: 180px;
+  height: 180px;
+  border: 2px solid none;
+  border-radius: 180px;
+  background-color: #e4b380;
+  margin: 30px;
+}
+
+.item-img {
+  margin-top: 50px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.item-span {
+  margin-top: 55px;
+  margin-left: 75px;
+  margin-right: 55px;
+}
+
+.content-last {
+  height: 222px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.content-left,
+.content-right {
+  margin: auto;
+  margin-top: 100px;
+  width: 509px;
+  height: 222px;
+}
+
+.content-head3 {
+  font-size: 30px;
+  width: 300px;
+}
+
+.content-txt {
+  width: 500px;
+  height: 96px;
+}
+
+.wrapp {
+  margin-top: 200px;
+  width: 1440px;
+  height: 1033px;
+}
+.wrapp-in {
+  display: flex;
+  justify-content: center;
+  margin-right: 200px;
+}
+
+.wrapp-txt {
+  width: 400px;
+}
+
+.wrapp-head {
+  font-size: 30px;
+}
+
+.wrapp-head6 {
+  font-size: 15px;
+}
+
+.wrapp-left {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.wrapp-right {
+  margin-left: 100px;
+  margin-top: 185px;
+}
+
+.wrapper {
+  /* width: 14440px;
+  height: 1697px; */
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.wrapper-head {
+  text-align: center;
+}
+
+.wrapper-head::before {
+  content: "Our online store";
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.wrapper-list {
+  max-width: 1440px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper-item {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.wrapper-list:last-child {
+  display: block;
+  margin-right: -500px;
+}
+
+.wrapper-hr {
+  margin-left: 0px;
+  width: 380px;
+  height: 1px;
+  margin-top: -18px;
+  margin-bottom: 20px;
+}
+
+.wrapper-head5 {
+  margin-top: 5px;
+  color: grey;
+  font-size: 10px;
+}
+
+.wrapper-head6 {
+  margin-top: -5px;
+}
+
+.wrapper-btn {
+  margin-left: 650px;
+  width: 214px;
+  height: 62px;
+  border: 2px solid black;
+  background-color: #ac1313;
+}
+
+.sidebar {
+  width: 1440px;
+  height: 471px;
+  margin-top: 150px;
+  border: 2px solid black;
+  background-image: url(../images/bg\ image.png);
+}
+
+.sidebar-head {
+  margin-top: 160px;
+  margin-left: 150px;
+}
+
+.sidebar-txt {
+  margin-left: 150px;
+  width: 400px;
+}
+
+.sidebar-btn {
+  margin-left: 150px;
+  width: 170px;
+  height: 50px;
+  background-color: #ac1313;
+}
+
+.sidebar-link {
+  color: red;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.footer-telegram {
+  margin-left: 740px;
+}
+
+.footer-head {
+  width: 552px;
+  height: 73px;
+  margin-left: 510px;
+  font-size: 40px;
+}
+
+.footer-head::before {
+  content: "latest news";
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  font-size: small;
+  justify-content: center;
+  color: red;
+}
+
+.footer-input-txt {
+  margin-left: 500px;
+  width: 320px;
+  height: 45px;
+}
+
+.footer-submit {
+  width: 161px;
+  height: 45px;
+  color: white;
+
+  background-color: black;
+}
+
+.footer-checkbox {
+  margin-top: 30px;
+  margin-left: 700px;
+}
+
+.footer-pompeo {
+  margin-top: 100px;
+  margin-left: 700px;
+}
+
+.footer-txt {
+  margin-left: 600px;
+  width: 300px;
+}
+
+.footer-list {
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  width: 371px;
+  height: 127px;
+}
+
+.footer-img {
+  text-decoration: none;
+  margin-left: 160px;
+}
+
+.footer-item-head {
+  margin-left: 160px;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin-left: 100px;
+  color: black;
+}
+.address {
+  margin-left: 100px;
+  width: 170px;
+}
+
+.footer-span {
+  margin-left: 120px;
+}
+
+.footer-last {
+  margin-top: 100px;
+  width: 1440px;
+  height: 10px;
+  text-align: center;
+  padding: 50px;
+  background-color: #e6e5e5;
+}
